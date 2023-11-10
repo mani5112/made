@@ -24,6 +24,7 @@ I've Tesla's stock data from 2010 to 2020. And, Elon must tweets from 2010 to 20
 
 * Data URL (Elon must tweets): [https://www.kaggle.com/datasets/usamabuttar/electric-vehicle-population-data-washington-us](https://www.kaggle.com/datasets/kingburrito666/elon-musk-tweets)
 * Data Type: CSV
+ 
 
 ### Datasource2:
 * Data URL (stock market): [(https://www.kaggle.com/datasets/timoboz/tesla-stock-data-from-2010-to-2020)](https://www.kaggle.com/datasets/timoboz/tesla-stock-data-from-2010-to-2020)
@@ -32,5 +33,12 @@ I've Tesla's stock data from 2010 to 2020. And, Elon must tweets from 2010 to 20
 ## Work Packages
 
 <!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
+NLTK
+Pandas
+Numpy
+Matplotlib
+sqlite3
+VaderSentiment
+Plotly
 
 
