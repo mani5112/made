@@ -15,6 +15,8 @@ Impact of Tesla stock price based on Elon musk tweets.
 <!-- Describe your data science project in max. 200 words. Consider writing about why and how you attempt it. -->
 
 I've Tesla's stock data from 2010 to 2020. And, Elon must tweets from 2010 to 2017. In this project, I would like to understand the impact of stock prices based on the elon must tweet
+
+Objectives: • Extraction of Tweets from Twitter and Tesla Stock data  • Sentiment analysis on Tweets about Musk. • Trends of the stock prices of Tesla based on the tweets during that time and emotional reaction of the crowd towards such tweets
  
 ## Datasources
 
