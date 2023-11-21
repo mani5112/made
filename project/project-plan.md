@@ -24,7 +24,7 @@ Objectives: • Extraction of Tweets from Twitter and Tesla Stock data  • Sent
 
 ### Datasource1:
 
-* Data URL (Elon must tweets): [https://www.kaggle.com/datasets/usamabuttar/electric-vehicle-population-data-washington-us](https://www.kaggle.com/datasets/kingburrito666/elon-musk-tweets)
+* Data URL (Elon must tweets): (https://www.kaggle.com/datasets/kingburrito666/elon-musk-tweets)
 * Data Type: CSV
  
 
