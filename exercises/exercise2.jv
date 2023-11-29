@@ -41,31 +41,34 @@ pipeline TrainstopsPipeline {
         constraints: [ ValidGeographicCoordinates ];
     }
 
-    valuetype IfOptType oftype text {
+    valuetype IfOptType oftype text 
+    {
         constraints: [ ValidIfOptValues ];
     }
 
-    valuetype TextType oftype text {
+    valuetype TextType oftype text 
+    {
         constraints: [ NonEmptyValues ];
     }
 
-    constraint ValidVerkehrValues oftype AllowlistConstraint {
+    constraint ValidVerkehrValues oftype AllowlistConstraint 
+    {
         allowlist: ["FV", "RV", "nur DPN"];
     }
 
-    constraint ValidGeographicCoordinates oftype RangeConstraint {
+    constraint ValidGeographicCoordinates oftype RangeConstraint 
+   {
         lowerBound: -90;
-        lowerBoundInclusive: true;
         upperBound: 90;
-        upperBoundInclusive: true;
     }
 
-    constraint ValidIfOptValues oftype RegexConstraint {
+    constraint ValidIfOptValues oftype RegexConstraint 
+    {
         regex: /^.{2}:[0-9]+:[0-9]+(:[0-9]+)?$/;
     }
 
     constraint NonEmptyValues oftype LengthConstraint {
         minLength: 1;
-        maxLength: 100;
+        maxLength: 9007199254740991;
     }
 }
