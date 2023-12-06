@@ -49,7 +49,7 @@ class TestDataProcessing(unittest.TestCase):
         except Exception as e:
             self.fail(f"Test failed: {e}")
 
-    def test_hotel_bookings_dataframe(self):
+    def test_df_tweets(self):
         logging.info("checking test_hotel_bookings_dataframe...")
         try:
             # Test if the df_tweets DataFrame is not empty
