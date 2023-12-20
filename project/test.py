@@ -32,7 +32,7 @@ class TestDataProcessing(unittest.TestCase):
             tables = cursor.fetchall()
             table_names = [table[0] for table in tables]
             self.assertIn('elon_tweets', table_names)
-            logging("Test passed: elon_tweets table exists in the database.")
+            print("Test passed: elon_tweets table exists in the database.")
         except Exception as e:
             self.fail(f"Test failed: {e}")
 
@@ -45,7 +45,7 @@ class TestDataProcessing(unittest.TestCase):
             tables = cursor.fetchall()
             table_names = [table[0] for table in tables]
             self.assertIn('tsla_stocks', table_names)
-            logging.info("Test passed: tsla_stocks table exists in the database.")
+            print("Test passed: tsla_stocks table exists in the database.")
         except Exception as e:
             self.fail(f"Test failed: {e}")
 
